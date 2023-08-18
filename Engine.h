@@ -6,22 +6,29 @@
 #define NAMTARENGINE_ENGINE_H
 
 #include <SFML/Graphics.hpp>
+#include <vector>
+#include <thread>
+
 using namespace sf;
 using namespace std;
 
 class Engine {
 public:
     Engine();
-    void Run();
+    void run();
 
 private:
     Vector2f resolution;
     RenderWindow window;
     const unsigned int FPS = 60;
 
+    std::thread physicsThread;
 
-    void PhysicsUpdate();
-    void Update();
+
+    void startGame();
+    void draw();
+    void physicsUpdate();
+    void update();
 };
 
 
