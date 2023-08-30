@@ -12,7 +12,7 @@ set(BUILD_SHARED_LIBS OFF)
 include(FetchContent)
 
 #Add the executables
-add_executable(NamtarEngine main.cpp Engine.cpp Engine.h)
+add_executable(NamtarEngine main.cpp Engine.cpp Engine.h Entity.cpp Entity.h GameObject.cpp GameObject.h)
 
 FETCHCONTENT_DECLARE(
         sfml
