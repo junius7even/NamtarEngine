@@ -8,7 +8,8 @@ Entity::Entity() {
     Entity::IDCount = 0;
 }
 
-static int Entity::createNewID() {
+// TODO: add thread safety
+int Entity::createNewID() {
     if (freeIDs.empty())
         return ++IDCount;
     int returnedID = freeIDs.back();
@@ -16,6 +17,7 @@ static int Entity::createNewID() {
     return returnedID;
 }
 
-static void Entity::destroyID(int ID) {
+// TODO: add thread safety
+void Entity::destroyID(int ID) {
     freeIDs.push_back(ID);
 }
