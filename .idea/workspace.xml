@@ -27,9 +27,32 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e39b5f64-759e-401f-94c3-e3986ab1acd6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Core/Behaviour.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Behaviour.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Component.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Component.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/Entity.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/GameObject.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-c6532b335b523693df1f.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-08-30T14-57-09-0585.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-123b4c61a9563fa0b49d.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-sfml-graphics-Debug-ef56226f659bbbe57295.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Entity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Entity.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Engine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Engine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Entity.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Entity.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/GameObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/GameObject.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-80082d0fd2884af24b78.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-08-29T22-28-28-0109.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-b48ba93b285375279dd3.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-sfml-graphics-Debug-32cef52ec0ee672757b9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +100,11 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GraphicsProjects\NamtarEngine\Core" />
+    </key>
+  </component>
   <component name="RunManager" selected="CMake Application.NamtarEngine">
     <configuration name="NamtarEngine" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NamtarEngine" TARGET_NAME="NamtarEngine" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NamtarEngine" RUN_TARGET_NAME="NamtarEngine">
       <method v="2">
@@ -140,7 +168,7 @@
       <workItem from="1692848538046" duration="6000" />
       <workItem from="1692979599207" duration="1000" />
       <workItem from="1693321427966" duration="5201000" />
-      <workItem from="1693402003036" duration="223000" />
+      <workItem from="1693402003036" duration="3984000" />
     </task>
     <servers />
   </component>

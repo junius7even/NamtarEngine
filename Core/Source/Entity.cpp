@@ -2,14 +2,14 @@
 // Created by Junius7 on 2023-08-29.
 //
 
-#include "Entity.h"
+#include "../Header/Entity.h"
 
-Entity::Entity() {
+ne::Entity::Entity() {
     Entity::IDCount = 0;
 }
 
 // TODO: add thread safety
-int Entity::createNewID() {
+int ne::Entity::createNewID() {
     if (freeIDs.empty())
         return ++IDCount;
     int returnedID = freeIDs.back();
@@ -18,6 +18,6 @@ int Entity::createNewID() {
 }
 
 // TODO: add thread safety
-void Entity::destroyID(int ID) {
+void ne::Entity::destroyID(int ID) {
     freeIDs.push_back(ID);
 }

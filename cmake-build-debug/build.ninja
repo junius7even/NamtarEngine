@@ -57,29 +57,45 @@ build CMakeFiles/NamtarEngine.dir/main.cpp.obj: CXX_COMPILER__NamtarEngine_Debug
   OBJECT_DIR = CMakeFiles\NamtarEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir
 
-build CMakeFiles/NamtarEngine.dir/Engine.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Engine.cpp || cmake_object_order_depends_target_NamtarEngine
+build CMakeFiles/NamtarEngine.dir/Core/Engine.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/Engine.cpp || cmake_object_order_depends_target_NamtarEngine
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\Engine.cpp.obj.d
+  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\Engine.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
   INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core
 
-build CMakeFiles/NamtarEngine.dir/Entity.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Entity.cpp || cmake_object_order_depends_target_NamtarEngine
+build CMakeFiles/NamtarEngine.dir/Core/Entity.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/Entity.cpp || cmake_object_order_depends_target_NamtarEngine
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\Entity.cpp.obj.d
+  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\Entity.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
   INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core
 
-build CMakeFiles/NamtarEngine.dir/GameObject.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/GameObject.cpp || cmake_object_order_depends_target_NamtarEngine
+build CMakeFiles/NamtarEngine.dir/Core/GameObject.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/GameObject.cpp || cmake_object_order_depends_target_NamtarEngine
   DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\GameObject.cpp.obj.d
+  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\GameObject.cpp.obj.d
   FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
   INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
   OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core
+
+build CMakeFiles/NamtarEngine.dir/Core/Component.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/Component.cpp || cmake_object_order_depends_target_NamtarEngine
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\Component.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
+  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
+  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core
+
+build CMakeFiles/NamtarEngine.dir/Core/Behaviour.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/Behaviour.cpp || cmake_object_order_depends_target_NamtarEngine
+  DEFINES = -DSFML_STATIC
+  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\Behaviour.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
+  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
+  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
+  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core
 
 
 # =============================================================================
@@ -89,7 +105,7 @@ build CMakeFiles/NamtarEngine.dir/GameObject.cpp.obj: CXX_COMPILER__NamtarEngine
 #############################################
 # Link the executable NamtarEngine.exe
 
-build NamtarEngine.exe: CXX_EXECUTABLE_LINKER__NamtarEngine_Debug CMakeFiles/NamtarEngine.dir/main.cpp.obj CMakeFiles/NamtarEngine.dir/Engine.cpp.obj CMakeFiles/NamtarEngine.dir/Entity.cpp.obj CMakeFiles/NamtarEngine.dir/GameObject.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
+build NamtarEngine.exe: CXX_EXECUTABLE_LINKER__NamtarEngine_Debug CMakeFiles/NamtarEngine.dir/main.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Engine.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Entity.cpp.obj CMakeFiles/NamtarEngine.dir/Core/GameObject.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Component.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Behaviour.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lopengl32  -lwinmm  -lgdi32  _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\NamtarEngine.dir

@@ -5,7 +5,7 @@
 #ifndef NAMTARENGINE_ENGINE_H
 #define NAMTARENGINE_ENGINE_H
 
-#include <SFML/Graphics.hpp>
+#include "SFML/Graphics.hpp"
 #include <vector>
 #include <thread>
 
