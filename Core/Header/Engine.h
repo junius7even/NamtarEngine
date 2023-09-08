@@ -31,8 +31,9 @@ namespace ne {
         /**
          * Loads a scene by setting up all the gameObjects and initializing their components
          * Currently hardcoded through loading files by calling their names. Will have to change this later
+         * @param sceneFileName
          */
-        void loadScene(std::string sceneFileName);
+        void loadScene(const std::string& sceneFileName);
 
         /**
          * Called by loadScene to initialize gameObjects(entities) and their components at the start of each scene.
@@ -43,12 +44,12 @@ namespace ne {
         void draw();
         void physicsUpdate();
         void tick();
+        void lateTick();
 
         void createWindow();
 
         static std::vector<GameObject> gameObjectPool;
         static std::vector<std::vector<Component>> componentPool;
-
     };
 
 }

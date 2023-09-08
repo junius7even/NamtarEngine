@@ -27,49 +27,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e39b5f64-759e-401f-94c3-e3986ab1acd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/CoreComponents/Collider2D.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/CoreComponents/Collider2D.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/CoreComponents/Collision2DHandler.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/CoreComponents/Collision2DHandler.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/CoreComponents/Images/sfml-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/CoreComponents/SpriteRenderer.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Header/IDManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Header/InputManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Header/Logger.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Header/Logger.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Core/Source/InputManager.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceForce/Enemy.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceForce/Enemy.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceForce/EnemyTemplate.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceForce/EnemyTemplate.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceForce/GameManager.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceForce/GameManager.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceForce/Health.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceForce/Health.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceForce/PlayerHealth.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceForce/PlayerMovement.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpaceForce/PlayerMovement.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-dfd7cfb9f74f1ef53eb4.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-08T00-28-38-0964.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-52dd252ced67e4e77745.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-sfml-graphics-Debug-32cef52ec0ee672757b9.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/CoreComponents/Helper/json.hpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-39538cf3afd82c0f0bbf.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-08T02-54-18-0305.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-7fb9fda56bb09bd27c30.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Header/Behaviour.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/Behaviour.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Header/Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/Component.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Header/Engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/Engine.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Header/Entity.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Header/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/GameObject.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Header/MonoInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/MonoInstance.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Source/Behaviour.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Source/Behaviour.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Source/Component.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Source/Component.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/IDManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/IDManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Source/Behaviour.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Source/Engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Source/Engine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Source/Entity.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Source/IDManager.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Source/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Source/GameObject.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-fb8c0048278ed0877533.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-08-30T15-34-17-0416.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-bdbe15eae334ccc48597.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-sfml-graphics-Debug-ef56226f659bbbe57295.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-dfd7cfb9f74f1ef53eb4.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-08T00-28-38-0964.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-52dd252ced67e4e77745.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/.ninja_log" afterDir="false" />
@@ -196,7 +167,7 @@
       <workItem from="1693856938163" duration="6052000" />
       <workItem from="1693934395066" duration="13768000" />
       <workItem from="1694010857530" duration="3753000" />
-      <workItem from="1694129306807" duration="5809000" />
+      <workItem from="1694129306807" duration="9819000" />
     </task>
     <servers />
   </component>

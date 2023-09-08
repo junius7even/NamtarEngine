@@ -51,6 +51,7 @@ namespace ne {
          * Increments with every instantiation of a GameObject.
          */
         inline static std::atomic<int> entityIDCounter = 0;
+
         /**
          * Increments with every instantiation of a unique Component child type.
          */

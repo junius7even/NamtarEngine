@@ -13,15 +13,19 @@ namespace ne {
         {
 
         }
-        virtual void Start();
+        virtual void Start() {};
         /**
          * Executed every tick of the game (frame).
          */
-        virtual void Update();
+        virtual void Update() {};
         /**
          * Executed on the physics thread, separate from the rendering.
          */
-        virtual void PhysicsUpdate();
+        virtual void PhysicsUpdate() {};
+        /**
+         * Executed after game logic updates, used potentially for UI and friends.
+         */
+        virtual void LateUpdate() {};
     };
 }
 

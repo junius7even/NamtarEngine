@@ -89,14 +89,6 @@ build CMakeFiles/NamtarEngine.dir/Core/Source/Component.cpp.obj: CXX_COMPILER__N
   OBJECT_DIR = CMakeFiles\NamtarEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core\Source
 
-build CMakeFiles/NamtarEngine.dir/Core/Source/Behaviour.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/Source/Behaviour.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\Source\Behaviour.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core\Source
-
 build CMakeFiles/NamtarEngine.dir/Core/CoreComponents/Collision2DHandler.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/CoreComponents/Collision2DHandler.cpp || cmake_object_order_depends_target_NamtarEngine
   DEFINES = -DSFML_STATIC
   DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\CoreComponents\Collision2DHandler.cpp.obj.d
@@ -177,14 +169,6 @@ build CMakeFiles/NamtarEngine.dir/Core/Header/Logger.cpp.obj: CXX_COMPILER__Namt
   OBJECT_DIR = CMakeFiles\NamtarEngine.dir
   OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core\Header
 
-build CMakeFiles/NamtarEngine.dir/Core/Header/World.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/Header/World.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\Header\World.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core\Header
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target NamtarEngine
@@ -193,7 +177,7 @@ build CMakeFiles/NamtarEngine.dir/Core/Header/World.cpp.obj: CXX_COMPILER__Namta
 #############################################
 # Link the executable NamtarEngine.exe
 
-build NamtarEngine.exe: CXX_EXECUTABLE_LINKER__NamtarEngine_Debug CMakeFiles/NamtarEngine.dir/main.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/Engine.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/IDManager.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/GameObject.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/Component.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/Behaviour.cpp.obj CMakeFiles/NamtarEngine.dir/Core/CoreComponents/Collision2DHandler.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/Enemy.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/InputManager.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/PlayerMovement.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/Health.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/PlayerHealth.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/EnemyTemplate.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/GameManager.cpp.obj CMakeFiles/NamtarEngine.dir/Core/CoreComponents/Collider2D.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Header/Logger.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Header/World.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
+build NamtarEngine.exe: CXX_EXECUTABLE_LINKER__NamtarEngine_Debug CMakeFiles/NamtarEngine.dir/main.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/Engine.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/IDManager.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/GameObject.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/Component.cpp.obj CMakeFiles/NamtarEngine.dir/Core/CoreComponents/Collision2DHandler.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/Enemy.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/InputManager.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/PlayerMovement.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/Health.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/PlayerHealth.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/EnemyTemplate.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/GameManager.cpp.obj CMakeFiles/NamtarEngine.dir/Core/CoreComponents/Collider2D.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Header/Logger.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
   FLAGS = -g
   LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lopengl32  -lwinmm  -lgdi32  _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\NamtarEngine.dir
