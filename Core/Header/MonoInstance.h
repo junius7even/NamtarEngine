@@ -7,6 +7,11 @@
 
 
 class MonoInstance {
+public:
+    virtual ~MonoInstance()=default;
+    MonoInstance(MonoInstance const &) = delete;
+    MonoInstance const& operator=(MonoInstance const &) = delete;
+private:
 
 };
 

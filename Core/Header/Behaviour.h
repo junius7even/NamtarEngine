@@ -6,9 +6,23 @@
 #define NAMTARENGINE_BEHAVIOUR_H
 #include "Component.h"
 
-class Behaviour: Component {
+namespace ne {
+    class Behaviour: public Component {
+    public:
+        Behaviour(): Component()
+        {
 
-};
-
+        }
+        virtual void Start();
+        /**
+         * Executed every tick of the game (frame).
+         */
+        virtual void Update();
+        /**
+         * Executed on the physics thread, separate from the rendering.
+         */
+        virtual void PhysicsUpdate();
+    };
+}
 
 #endif //NAMTARENGINE_BEHAVIOUR_H

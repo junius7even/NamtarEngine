@@ -3,14 +3,20 @@
 //
 
 #include "../Header/GameObject.h"
-#include "../Header/Entity.h"
+#include "../Header/IDManager.h"
 
-ne::GameObject::GameObject(float xPos, float yPos, float scaleX, float scaleY) {
-    ID = ne::Entity::createNewID();
-    this->position = sf::Vector2f (xPos, yPos);
-    this->scale = sf::Vector2f (scaleX, scaleY);
+void ne::GameObject::addComponent(int typeID) {
+    if (componentList[typeID]) {
+        // TODO: Log a message saying the component had already been added
+
+    }
+    componentList[typeID].flip();
 }
 
-ne::GameObject::~GameObject() {
-    ne::Entity::destroyID(this->ID);
+void ne::GameObject::removeComponent(int typeID) {
+    if (!componentList[typeID]) {
+        // TODO: Log a message saying the component is not there in the first place.
+
+    }
+    componentList[typeID].flip();
 }

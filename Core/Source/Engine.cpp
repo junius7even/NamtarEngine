@@ -5,29 +5,33 @@
 #include "../Header/Engine.h"
 
 
-Engine::Engine() {
-    resolution = Vector2f(800, 600);
-    window.create(VideoMode(resolution.x, resolution.y), "Pong", Style::Default);
-    window.setFramerateLimit(FPS);
+ne::Engine::Engine() {
+    createWindow();
 }
 
-void Engine::startGame() {
+void ne::Engine::startGame() {
     // Start the physics thread
-    physicsThread = thread(&Engine::physicsUpdate, this);
+    physicsThread = std::thread(&Engine::physicsUpdate, this);
 }
 
-void Engine::physicsUpdate() {
-
-}
-
-void Engine::draw() {
+void ne::Engine::physicsUpdate() {
 
 }
 
-void Engine::run() {
+void ne::Engine::draw() {
+
+}
+
+void ne::Engine::run() {
     draw();
 }
 
-void Engine::update() {
+void ne::Engine::tick() {
 
+}
+
+void ne::Engine::createWindow() {
+    resolution = Vector2f(800, 600);
+    window.create(VideoMode(resolution.x, resolution.y), "Pong", Style::Default);
+    window.setFramerateLimit(FPS);
 }
