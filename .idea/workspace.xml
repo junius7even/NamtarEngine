@@ -27,24 +27,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e39b5f64-759e-401f-94c3-e3986ab1acd6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Core/CoreComponents/Helper/json.hpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-39538cf3afd82c0f0bbf.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-08T02-54-18-0305.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-7fb9fda56bb09bd27c30.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Core/SceneData/TestScene.JSON" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f150d8415948b29d8272.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-14T15-18-20-0503.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-00b7274fa76ae489a8f9.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Header/Behaviour.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/Behaviour.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CoreComponents/SpriteRenderer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/CoreComponents/SpriteRenderer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/Component.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Header/Engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/Engine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/GameObject.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Header/IDManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/IDManager.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Source/Behaviour.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Source/Component.cpp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/Core/Source/Engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Source/Engine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-dfd7cfb9f74f1ef53eb4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-08T00-28-38-0964.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-52dd252ced67e4e77745.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Source/IDManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Source/IDManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-39538cf3afd82c0f0bbf.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-08T02-54-18-0305.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-7fb9fda56bb09bd27c30.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/.ninja_log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -167,7 +172,10 @@
       <workItem from="1693856938163" duration="6052000" />
       <workItem from="1693934395066" duration="13768000" />
       <workItem from="1694010857530" duration="3753000" />
-      <workItem from="1694129306807" duration="9819000" />
+      <workItem from="1694129306807" duration="10423000" />
+      <workItem from="1694175229386" duration="4183000" />
+      <workItem from="1694644454699" duration="11715000" />
+      <workItem from="1694700940995" duration="3410000" />
     </task>
     <servers />
   </component>

@@ -3,58 +3,163 @@
 //
 
 #include "../Header/Engine.h"
+#include "../CoreComponents/SpriteRenderer.h"
 
+#include <fstream>
+#include <iostream>
+#include "../Header/Behaviour.h"
+
+using json = nlohmann::json;
 
 ne::Engine::Engine() {
     createWindow();
 }
 
-void ne::Engine::startGame() {
+ne::Engine::~Engine() {
+    // Deallocate component pool
+    for (const auto& i: componentPool) {
+        for (auto v: i)
+            delete v;
+    }
+    for (auto i: gameObjectPool) {
+        delete i;
+    }
+}
+
+
+void ne::Engine::startEngine() {
     // Start the physics thread
-    physicsThread = std::thread(&Engine::physicsUpdate, this);
+    // physicsThread = std::thread(&Engine::physicsUpdate, this);
+    loadScene("D:\\GraphicsProjects\\NamtarEngine\\Core\\SceneData\\TestScene.JSON");
+
 }
 
 void ne::Engine::physicsUpdate() {
-    // TODO: Implement job system to finish physics updates and other things as well intesd of looping.
+    // TODO: Implement job system to finish physics updates and other things as well instead of looping.
 
 }
 
 void ne::Engine::draw() {
-
+    // Draw all the GameObjects with the SpriteRenderer components
+    std::vector<sf::Sprite*>* drawStackRef = &ne::SpriteRenderer::drawStack;
+    for (auto i: *drawStackRef) {
+        window.draw(*i);
+    }
 }
 
 void ne::Engine::run() {
+    while (window.isOpen()) {
+        sf::Event windowEvent;
+        while (window.pollEvent(windowEvent)) {
+            switch (windowEvent.type) {
+                case sf::Event::Closed: {
+                    window.close();
+                    break;
+                }
+            }
+        }
+    }
+    tick();
+    lateTick();
     draw();
 }
 
 void ne::Engine::tick() {
-
+    for (auto i: componentPool) {
+        for (auto v: i) {
+            v->Update();
+        }
+    }
 }
 
 void ne::Engine::createWindow() {
     resolution = Vector2f(800, 600);
-    window.create(VideoMode(resolution.x, resolution.y), "Pong", Style::Default);
+    window.create(VideoMode(resolution.x, resolution.y), "NamtarEngine", Style::Default);
     window.setFramerateLimit(FPS);
 }
 
-void ne::Engine::loadScene(const std::string& sceneFileName) {
+void ne::Engine::initializeGameObjects(const json& gameObjects) {
+    gameObjectPool.resize(gameObjects.size());
+    componentPool.resize(gameObjects.size());
+    for (auto element: gameObjects) {
+        GameObject object =  GameObject(
+                element["name"],
+                element["isActive"],
+                element["position"][0],
+                element["position"][1]
+        );
+        gameObjectPool.push_back(&object);
 
-}
-
-void ne::Engine::initializeGameObjects() {
-    //TODO: Implement JSON integration for scene reading and others
-    int totalGameObjects = 3;
-    gameObjectPool.resize(totalGameObjects);
-
-    int compIDToAdd = 3;
-    GameObject gameObjectToAdd = GameObject();
-    for (int i = 0; i < 3; i++) {
-        gameObjectToAdd.addComponent(compIDToAdd);
+        // Handle components
+        if (element.contains("components")) {
+            initializeComponents(object, element["components"]);
+        }
+        // TODO: Handle child objects
 
     }
-    gameObjectPool.push_back(gameObjectToAdd);
+}
+
+//        std::cout<<"name: "<<element["name"]<<std::endl;
+//        std::cout<<"isActive: "<<element["isActive"]<<std::endl;
+//        std::cout<<"PosX: "<<element["position"][0]<<std::endl;
+//        std::cout<<"PosX: "<<element["position"][1]<<std::endl;
+//        std::cout<<"Components num: "<<element["components"].size()<<std::endl;
+
+void ne::Engine::initializeComponents(ne::GameObject &gameObject, const json &components) {
+    for(auto component: components) {
+        int typeID = componentIdentifierMap[component["identifier"]];
+        componentPool.at(gameObject.getID()).resize(components.size(), nullptr);
+
+        switch (typeID) {
+            case 0: {
+                componentPool.at(gameObject.getID()).at(typeID) = new ne::SpriteRenderer(
+                                    (float)component["position"][0],
+                                    (float)component["position"][1],
+                                    0.0f,
+                                    component["spriteName"]
+                                    );
+                break;
+            }
+            case 1:
+                // TODO: Add other core components
+                break;
+        }
+        gameObject.addComponent(typeID);
+    }
+}
+
+ne::GameObject ne::Engine::recursive_childObjects(const json &j) {
+
+    return GameObject();
+}
+
+
+
+void ne::Engine::loadScene(const std::string& sceneFileName) {
+    // Parse json data with nlohmann JSON
+    std::ifstream f(sceneFileName);
+    std::cout<<"Scenefile open status: "<<f.is_open()<<std::endl;
+    json data = json::parse(f);
+    activeSceneName = data["sceneName"];
+    initializeGameObjects(data["gameObjects"]);
+    for (auto i: componentPool) {
+        for (auto v: i)
+            v->Start();
+    }
+    // componentPool
+    // gameObjectPool
+
 }
 
 void ne::Engine::lateTick() {
+    for (auto i: componentPool) {
+        for (auto v: i) {
+            v->LateUpdate();
+        }
+    }
+}
+
+void ne::Engine::recursive_iterate(const json &j) {
 
 }
+

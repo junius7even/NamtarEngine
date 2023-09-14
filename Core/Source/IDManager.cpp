@@ -27,6 +27,6 @@ int ne::IDManager::assignTypeID() {
     return returnedID;
 }
 
-void ne::IDManager::destroyTypeID(int int ID) {
+void ne::IDManager::destroyTypeID(int ID) {
     typeIDPool.push_back(ID);
 }

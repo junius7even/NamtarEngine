@@ -41,11 +41,11 @@ namespace ne {
         /**
          * Stores freed up entity IDs when a GameObject is freed.
          */
-        static std::vector<int> entityIDPool;
+        inline static std::vector<int> entityIDPool;
         /**
          * Stores freed up type(component) IDs when a component is freed.
          */
-        static std::vector<int> typeIDPool;
+        inline static std::vector<int> typeIDPool;
 
         /**
          * Increments with every instantiation of a GameObject.

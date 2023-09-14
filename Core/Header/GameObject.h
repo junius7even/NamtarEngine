@@ -8,6 +8,8 @@
 #include <bitset>
 #include "SFML/Graphics.hpp"
 #include "IDManager.h"
+#include <string>
+#include <utility>
 
 namespace ne {
     /**
@@ -15,7 +17,9 @@ namespace ne {
      */
     class GameObject {
     public:
-        explicit GameObject(float xPos = 0.0f, float yPos = 0.0f, float scaleX = 1.0f, float scaleY = 1.0f) {
+        explicit GameObject(std::string&& name = "GameObject", bool isActive = true, float xPos = 0.0f, float yPos = 0.0f, float scaleX = 1.0f, float scaleY = 1.0f) {
+            this->name = name;
+            this->isActive = true;
             ID = ne::IDManager::assignEntityID();
             this->position = sf::Vector2f (xPos, yPos);
             this->scale = sf::Vector2f (scaleX, scaleY);
@@ -23,7 +27,9 @@ namespace ne {
         ~GameObject() {
             ne::IDManager::destroyEntityID(this->ID);
         }
+        bool isActive;
         sf::Vector2f scale;
+        std::string name;
         sf::Vector2f position;
 
         template<typename T>
@@ -32,8 +38,9 @@ namespace ne {
         }
 
         void addComponent(int typeID);
-
         void removeComponent(int typeID);
+
+        int getID() { return ID; }
     private:
         std::bitset<64> componentList;
         int ID;
