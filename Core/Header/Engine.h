@@ -45,7 +45,6 @@ namespace ne {
         /**
          * Called by loadScene to initialize gameObjects(entities) and their components at the start of each scene.
          */
-
         using json = nlohmann::json;
         void initializeGameObjects(const json& gameObjects);
         void initializeComponents(GameObject& gameObject, const json& components);
@@ -63,6 +62,15 @@ namespace ne {
 
         void createWindow();
 
+        void removeComponent(int goID, int typeID);
+        void addComponent(int goID, int typeID);
+
+        template<typename T>
+        T& getComponent() {
+            return nullptr;
+        }
+
+        inline static std::vector<std::bitset<64>> componentList;
         // Pointer to GameObject to prevent creating gameObjects and incrementing IDs each time the vector is resized
         inline static std::vector<GameObject*> gameObjectPool;
         // Component pool type contains pointers to Components to avoid initializing and therefore creating components each time the vector is resized & object slicing

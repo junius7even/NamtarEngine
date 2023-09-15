@@ -23,14 +23,18 @@ namespace ne {
          * Executed after game logic updates, used potentially for UI and friends.
          */
         virtual void LateUpdate()=0;
+
         Component() {
+            isActive = true;
             ID = IDManager::assignTypeID();
         }
+
         virtual ~Component() {
             IDManager::destroyTypeID(ID);
-
         }
-    private:
+        bool isActive;
+
+    protected:
         int ID;
     };
 }

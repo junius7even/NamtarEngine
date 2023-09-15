@@ -41,7 +41,7 @@ void ne::Engine::physicsUpdate() {
 
 void ne::Engine::draw() {
     // Draw all the GameObjects with the SpriteRenderer components
-    std::vector<sf::Sprite*>* drawStackRef = &ne::SpriteRenderer::drawStack;
+    std::vector<sf::RectangleShape*>* drawStackRef = &ne::SpriteRenderer::drawStack;
     for (auto i: *drawStackRef) {
         window.draw(*i);
     }
@@ -49,6 +49,7 @@ void ne::Engine::draw() {
 
 void ne::Engine::run() {
     while (window.isOpen()) {
+        window.clear(sf::Color::Black);
         sf::Event windowEvent;
         while (window.pollEvent(windowEvent)) {
             switch (windowEvent.type) {
@@ -58,16 +59,19 @@ void ne::Engine::run() {
                 }
             }
         }
+        tick();
+        lateTick();
+        draw();
+        window.display();
     }
-    tick();
-    lateTick();
-    draw();
 }
 
 void ne::Engine::tick() {
+
     for (auto i: componentPool) {
         for (auto v: i) {
-            v->Update();
+            if (v->isActive)
+                v->Update();
         }
     }
 }
@@ -81,6 +85,7 @@ void ne::Engine::createWindow() {
 void ne::Engine::initializeGameObjects(const json& gameObjects) {
     gameObjectPool.resize(gameObjects.size());
     componentPool.resize(gameObjects.size());
+    componentList.resize(gameObjects.size());
     for (auto element: gameObjects) {
         GameObject object =  GameObject(
                 element["name"],
@@ -108,11 +113,13 @@ void ne::Engine::initializeGameObjects(const json& gameObjects) {
 void ne::Engine::initializeComponents(ne::GameObject &gameObject, const json &components) {
     for(auto component: components) {
         int typeID = componentIdentifierMap[component["identifier"]];
-        componentPool.at(gameObject.getID()).resize(components.size(), nullptr);
+        int goID = gameObject.getID();
+        componentPool.at(goID).resize(components.size(), nullptr);
 
+        // Create the component in mem
         switch (typeID) {
             case 0: {
-                componentPool.at(gameObject.getID()).at(typeID) = new ne::SpriteRenderer(
+                componentPool.at(goID).at(typeID) = new ne::SpriteRenderer(
                                     (float)component["position"][0],
                                     (float)component["position"][1],
                                     0.0f,
@@ -124,7 +131,10 @@ void ne::Engine::initializeComponents(ne::GameObject &gameObject, const json &co
                 // TODO: Add other core components
                 break;
         }
-        gameObject.addComponent(typeID);
+
+        // Add component to componentList
+        addComponent(goID, typeID);
+
     }
 }
 
@@ -146,8 +156,6 @@ void ne::Engine::loadScene(const std::string& sceneFileName) {
         for (auto v: i)
             v->Start();
     }
-    // componentPool
-    // gameObjectPool
 
 }
 
@@ -159,7 +167,26 @@ void ne::Engine::lateTick() {
     }
 }
 
+//TODO: Iterate through child gameObjects recursively
 void ne::Engine::recursive_iterate(const json &j) {
 
+}
+
+void ne::Engine::addComponent(int goID, int typeID) {
+    if (componentList[goID][typeID]) {
+        // TODO: Add a proper logger
+        std::cout<<"Could not add component! Component("<<typeID<<") already exists on object("<<goID<<")!"<<std::endl;
+        return;
+    }
+    componentList.at(goID).flip(typeID);
+}
+
+void ne::Engine::removeComponent(int goID, int typeID) {
+    if (!componentList[goID][typeID]) {
+        std::cout<<"Could not remove component! Component("<<typeID<<") does not already exist on object("<<goID<<")!"<<std::endl;
+        return;
+    }
+    componentList.at(goID).flip(typeID);
+    componentList[goID].reset();
 }
 

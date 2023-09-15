@@ -32,17 +32,8 @@ namespace ne {
         std::string name;
         sf::Vector2f position;
 
-        template<typename T>
-        T& getComponent() {
-            return nullptr;
-        }
-
-        void addComponent(int typeID);
-        void removeComponent(int typeID);
-
-        int getID() { return ID; }
+        [[nodiscard]] int getID() const { return ID; }
     private:
-        std::bitset<64> componentList;
         int ID;
     };
 }
