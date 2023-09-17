@@ -39,7 +39,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("D:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-build/cmake_install.cmake")
+  include("D:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/cmake_install.cmake")
+endif()
+
+if(NOT CMAKE_INSTALL_LOCAL_ONLY)
+  # Include the install script for the subdirectory.
+  include("D:/GraphicsProjects/NamtarEngine/cmake-build-debug/Editor/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

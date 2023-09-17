@@ -1,0 +1,2 @@
+D:/GraphicsProjects/NamtarEngineJ7/SpaceForce/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GraphicsProjects/NamtarEngineJ7/SpaceForce/cmake-build-debug/CMakeFiles/rebuild_cache.dir

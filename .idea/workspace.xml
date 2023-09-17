@@ -14,10 +14,11 @@
       <config projectName="NamtarEngine" targetName="sfml-system" />
       <config projectName="NamtarEngine" targetName="sfml-window" />
       <config projectName="NamtarEngine" targetName="sfml-graphics" />
-      <config projectName="NamtarEngine" targetName="NamtarEngine" />
       <config projectName="NamtarEngine" targetName="sfml-main" />
       <config projectName="NamtarEngine" targetName="sfml-network" />
+      <config projectName="NamtarEngine" targetName="NamtarEngine" />
       <config projectName="NamtarEngine" targetName="sfml-audio" />
+      <config projectName="NamtarEngine" targetName="ne-editor" />
     </generated>
   </component>
   <component name="CMakeSettings">
@@ -26,18 +27,93 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e39b5f64-759e-401f-94c3-e3986ab1acd6" name="Changes" comment="">
+    <list default="true" id="d11ef54f-b0b9-447f-9362-0993e06bed0c" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Editor/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Editor/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/Source/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/Source/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Engine/header_list.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceForce/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpaceForce/cmake-build-debug/CMakeFiles/clion-Debug-log.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-21f0bc64789ec71d7f2b.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-662ec749a51a15ca933a.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-bb739dad37538da471f8.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-Editor-Debug-7a308ff03f205fcb7b81.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-Engine-Debug-e7cda9100e735d363573.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-Engine.Source-Debug-1f75edbf11129d460226.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build-Debug-054920a66d0662dcce26.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.Audio-Debug-cadf56c75fcf6e3eaa0e.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.Graphics-Debug-2f474ed3841b11e1a3b5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.Main-Debug-7f45591b9fcbd93a7468.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.Network-Debug-9910819fdfa8e24fc9b5.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.System-Debug-5379baeafb19644bc5c6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.Window-Debug-2bcad04d564aac689cc7.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-17T04-31-52-0377.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-789fb919d081edd592b6.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-ne-editor-Debug-86a2a4f8b32bf32675fe.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-sfml-graphics-Debug-ef56226f659bbbe57295.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Editor/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx.cxx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Engine/Source/cmake_install.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cmake-build-debug/Engine/cmake_install.cmake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/CoreComponents/SpriteRenderer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/CoreComponents/SpriteRenderer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Header/Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/Component.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Header/Engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/Engine.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Header/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Header/GameObject.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/SceneData/TestScene.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/Core/SceneData/TestScene.JSON" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Source/Engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Source/Engine.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Core/Source/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Core/Source/GameObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CoreComponents/Collider2D.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CoreComponents/Collider2D.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/CoreComponents/Physics/Collider2D.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CoreComponents/Collision2DHandler.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CoreComponents/Collision2DHandler.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/CoreComponents/Physics/Collision2DHandler.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CoreComponents/Helper/json.hpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/CoreComponents/Helper/json.hpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CoreComponents/Images/sfml-icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/EngineImages/sfml-icon.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/CoreComponents/SpriteRenderer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/CoreComponents/SpriteRenderer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/Behaviour.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/CoreComponents/Behaviour.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/Component.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/Component.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/Engine.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/Engine.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/GameObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/GameObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/IDManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/IDManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/InputManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/CoreComponents/InputManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/Logger.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Source/Logger.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/Logger.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/Logger.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Header/MonoInstance.h" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Include/ne/MonoInstance.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/SceneData/TestScene.JSON" beforeDir="false" afterPath="$PROJECT_DIR$/SceneData/TestScene.JSON" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Source/Engine.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Source/Engine.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Source/GameObject.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Source/GameObject.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Source/IDManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Source/IDManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Core/Source/InputManager.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Engine/Source/InputManager.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SpaceForce/GameManager.h" beforeDir="false" afterPath="$PROJECT_DIR$/SpaceForce/GameManager.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cache-v2-44ac0f333645b872bdff.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/cmakeFiles-v1-f88f03d888429763fd99.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/codemodel-v2-f150d8415948b29d8272.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build-Debug-074dcf98a80feb8b56ba.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.Audio-Debug-229872870b5fe095395f.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.Graphics-Debug-dfc94f05f12c00652438.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.Main-Debug-bdb82167263e7f4fc40a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.Network-Debug-b2f39146847359f06f27.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.System-Debug-f8a5a4e2fe43638d4f7a.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/directory-_deps.sfml-build.src.SFML.Window-Debug-fcfcb8b8ba0e27801981.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/index-2023-09-14T15-18-20-0503.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-NamtarEngine-Debug-00b7274fa76ae489a8f9.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/.cmake/api/v1/reply/target-sfml-graphics-Debug-32cef52ec0ee672757b9.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_deps" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_C.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/3.25.2/CMakeDetermineCompilerABI_CXX.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CMakeOutput.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.bin" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/CheckTypeSize/SIZEOF_VOID_PTR.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/TargetDirectories.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/rules.ninja" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/.ninja_log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/.ninja_log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/CMakeCache.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/_deps/sfml-subbuild/CMakeCache.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/build.ninja" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/build.ninja" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/cmake_install.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,18 +124,28 @@
     <option name="formatViaClangd" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CMakeLists.txt" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectApplicationVersion">
     <option name="ide" value="CLion" />
     <option name="majorVersion" value="2023" />
     <option name="minorVersion" value="1.5" />
   </component>
-  <component name="ProjectId" id="2UBQLJBeaIWDwK6QiIZUZHoZxLj" />
+  <component name="ProjectId" id="2VVBL6XF3nSE4XqKfwbK6tKOYBb" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -67,39 +153,42 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
-    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/GraphicsProjects/anax&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "D:/GraphicsProjects/NamtarEngine",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\GraphicsProjects\NamtarEngine\Core\Source" />
-      <recent name="D:\GraphicsProjects\NamtarEngine\Core\Header" />
-      <recent name="D:\GraphicsProjects\NamtarEngine\Core" />
+      <recent name="D:\GraphicsProjects\NamtarEngine\Editor" />
     </key>
   </component>
-  <component name="RunManager" selected="CMake Application.NamtarEngine">
-    <configuration name="NamtarEngine" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NamtarEngine" TARGET_NAME="NamtarEngine" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NamtarEngine" RUN_TARGET_NAME="NamtarEngine">
+  <component name="RunManager" selected="CMake Application.ne-editor">
+    <configuration name="NamtarEngine" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NamtarEngine" TARGET_NAME="NamtarEngine" CONFIG_NAME="Debug">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
     <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ne-editor" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="NamtarEngine" TARGET_NAME="ne-editor" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="NamtarEngine" RUN_TARGET_NAME="ne-editor">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -135,36 +224,27 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="CMake Application.NamtarEngine" />
       <item itemvalue="CMake Application.sfml-audio" />
       <item itemvalue="CMake Application.sfml-graphics" />
       <item itemvalue="CMake Application.sfml-main" />
       <item itemvalue="CMake Application.sfml-network" />
       <item itemvalue="CMake Application.sfml-system" />
       <item itemvalue="CMake Application.sfml-window" />
+      <item itemvalue="CMake Application.ne-editor" />
+      <item itemvalue="CMake Application.NamtarEngine" />
     </list>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="e39b5f64-759e-401f-94c3-e3986ab1acd6" name="Changes" comment="" />
-      <created>1692410436724</created>
+      <changelist id="d11ef54f-b0b9-447f-9362-0993e06bed0c" name="Changes" comment="" />
+      <created>1694911307951</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1692410436724</updated>
-      <workItem from="1692410438309" duration="280000" />
-      <workItem from="1692848538046" duration="6000" />
-      <workItem from="1692979599207" duration="1000" />
-      <workItem from="1693321427966" duration="5201000" />
-      <workItem from="1693402003036" duration="5834000" />
-      <workItem from="1693856938163" duration="6052000" />
-      <workItem from="1693934395066" duration="13768000" />
-      <workItem from="1694010857530" duration="3753000" />
-      <workItem from="1694129306807" duration="10423000" />
-      <workItem from="1694175229386" duration="4183000" />
-      <workItem from="1694644454699" duration="11715000" />
-      <workItem from="1694700940995" duration="5773000" />
-      <workItem from="1694781697328" duration="4733000" />
+      <updated>1694911307951</updated>
+      <workItem from="1694911308959" duration="51000" />
+      <workItem from="1694911368926" duration="8027000" />
+      <workItem from="1694923264482" duration="2039000" />
     </task>
     <servers />
   </component>

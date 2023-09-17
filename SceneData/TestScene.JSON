@@ -1,0 +1,34 @@
+{
+  "sceneName": "TestScene",
+  "gameObjects": [
+    {
+      "name": "TestObj1",
+      "isActive": true,
+      "position": [1, 2],
+      "components": [
+        {
+          "identifier": "SpriteRenderer",
+          "position": [0, 0],
+          "spriteName": "",
+          "spriteColor": [255, 255, 255]
+        }
+      ],
+      "childObjects": {
+        "name": "ChildObj1",
+        "components": [
+          {
+            "identifier": "SpriteRenderer",
+            "position": [20, 20],
+            "spriteName": "ball.png",
+            "spriteColor": [255, 255, 255]
+          }
+        ]
+      }
+    },
+    {
+      "name": "TestObj2",
+      "isActive": true,
+      "position": [10, 20]
+    }
+  ]
+}

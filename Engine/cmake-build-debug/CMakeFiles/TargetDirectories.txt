@@ -1,0 +1,5 @@
+D:/GraphicsProjects/NamtarEngine/Engine/cmake-build-debug/CMakeFiles/Project.dir
+D:/GraphicsProjects/NamtarEngine/Engine/cmake-build-debug/CMakeFiles/edit_cache.dir
+D:/GraphicsProjects/NamtarEngine/Engine/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+D:/GraphicsProjects/NamtarEngine/Engine/cmake-build-debug/Source/CMakeFiles/edit_cache.dir
+D:/GraphicsProjects/NamtarEngine/Engine/cmake-build-debug/Source/CMakeFiles/rebuild_cache.dir

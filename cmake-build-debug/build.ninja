@@ -40,145 +40,6 @@ include CMakeFiles/rules.ninja
 # Logical path to working directory; prefix for absolute paths.
 
 cmake_ninja_workdir = D$:/GraphicsProjects/NamtarEngine/cmake-build-debug/
-# =============================================================================
-# Object build statements for EXECUTABLE target NamtarEngine
-
-
-#############################################
-# Order-only phony target for NamtarEngine
-
-build cmake_object_order_depends_target_NamtarEngine: phony || cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window
-
-build CMakeFiles/NamtarEngine.dir/main.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/main.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\main.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir
-
-build CMakeFiles/NamtarEngine.dir/Core/Source/Engine.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/Source/Engine.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\Source\Engine.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core\Source
-
-build CMakeFiles/NamtarEngine.dir/Core/Source/IDManager.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/Source/IDManager.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\Source\IDManager.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core\Source
-
-build CMakeFiles/NamtarEngine.dir/Core/Source/GameObject.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/Source/GameObject.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\Source\GameObject.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core\Source
-
-build CMakeFiles/NamtarEngine.dir/Core/CoreComponents/Collision2DHandler.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/CoreComponents/Collision2DHandler.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\CoreComponents\Collision2DHandler.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core\CoreComponents
-
-build CMakeFiles/NamtarEngine.dir/SpaceForce/Enemy.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/SpaceForce/Enemy.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\SpaceForce\Enemy.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\SpaceForce
-
-build CMakeFiles/NamtarEngine.dir/Core/Source/InputManager.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/Source/InputManager.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\Source\InputManager.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core\Source
-
-build CMakeFiles/NamtarEngine.dir/SpaceForce/PlayerMovement.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/SpaceForce/PlayerMovement.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\SpaceForce\PlayerMovement.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\SpaceForce
-
-build CMakeFiles/NamtarEngine.dir/SpaceForce/Health.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/SpaceForce/Health.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\SpaceForce\Health.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\SpaceForce
-
-build CMakeFiles/NamtarEngine.dir/SpaceForce/PlayerHealth.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/SpaceForce/PlayerHealth.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\SpaceForce\PlayerHealth.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\SpaceForce
-
-build CMakeFiles/NamtarEngine.dir/SpaceForce/EnemyTemplate.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/SpaceForce/EnemyTemplate.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\SpaceForce\EnemyTemplate.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\SpaceForce
-
-build CMakeFiles/NamtarEngine.dir/SpaceForce/GameManager.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/SpaceForce/GameManager.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\SpaceForce\GameManager.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\SpaceForce
-
-build CMakeFiles/NamtarEngine.dir/Core/CoreComponents/Collider2D.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/CoreComponents/Collider2D.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\CoreComponents\Collider2D.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core\CoreComponents
-
-build CMakeFiles/NamtarEngine.dir/Core/Header/Logger.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Core/Header/Logger.cpp || cmake_object_order_depends_target_NamtarEngine
-  DEFINES = -DSFML_STATIC
-  DEP_FILE = CMakeFiles\NamtarEngine.dir\Core\Header\Logger.cpp.obj.d
-  FLAGS = -g -fdiagnostics-color=always -Wall -Wextra -Wpedantic -std=c++17
-  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  OBJECT_FILE_DIR = CMakeFiles\NamtarEngine.dir\Core\Header
-
-
-# =============================================================================
-# Link build statements for EXECUTABLE target NamtarEngine
-
-
-#############################################
-# Link the executable NamtarEngine.exe
-
-build NamtarEngine.exe: CXX_EXECUTABLE_LINKER__NamtarEngine_Debug CMakeFiles/NamtarEngine.dir/main.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/Engine.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/IDManager.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/GameObject.cpp.obj CMakeFiles/NamtarEngine.dir/Core/CoreComponents/Collision2DHandler.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/Enemy.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Source/InputManager.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/PlayerMovement.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/Health.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/PlayerHealth.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/EnemyTemplate.cpp.obj CMakeFiles/NamtarEngine.dir/SpaceForce/GameManager.cpp.obj CMakeFiles/NamtarEngine.dir/Core/CoreComponents/Collider2D.cpp.obj CMakeFiles/NamtarEngine.dir/Core/Header/Logger.cpp.obj | _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
-  FLAGS = -g
-  LINK_LIBRARIES = _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lopengl32  -lwinmm  -lgdi32  _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
-  OBJECT_DIR = CMakeFiles\NamtarEngine.dir
-  POST_BUILD = cd .
-  PRE_LINK = cd .
-  TARGET_FILE = NamtarEngine.exe
-  TARGET_IMPLIB = libNamtarEngine.dll.a
-  TARGET_PDB = NamtarEngine.exe.dbg
-
 
 #############################################
 # Utility command for package
@@ -271,6 +132,165 @@ build install/strip: phony CMakeFiles/install/strip.util
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
 # D:/GraphicsProjects/NamtarEngine/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for STATIC_LIBRARY target NamtarEngine
+
+
+#############################################
+# Order-only phony target for NamtarEngine
+
+build cmake_object_order_depends_target_NamtarEngine: phony || cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window
+
+build Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx.gch: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx.cxx | Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx || cmake_object_order_depends_target_NamtarEngine
+  DEFINES = -DNE_DEBUG -DNE_PCH -DSFML_STATIC
+  DEP_FILE = Engine\CMakeFiles\NamtarEngine.dir\cmake_pch.hxx.gch.d
+  FLAGS = -g -fdiagnostics-color=always -std=c++20 -Winvalid-pch -x c++-header -include D:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx
+  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/Engine/include -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/include -ID:/GraphicsProjects/NamtarEngine/Engine/. -ID:/GraphicsProjects/NamtarEngine/Engine/Source/. -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
+  OBJECT_DIR = Engine\CMakeFiles\NamtarEngine.dir
+  OBJECT_FILE_DIR = Engine\CMakeFiles\NamtarEngine.dir
+
+build Engine/CMakeFiles/NamtarEngine.dir/Source/Engine.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Engine/Source/Engine.cpp | Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_NamtarEngine
+  DEFINES = -DNE_DEBUG -DNE_PCH -DSFML_STATIC
+  DEP_FILE = Engine\CMakeFiles\NamtarEngine.dir\Source\Engine.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=c++20 -Winvalid-pch -include D:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx
+  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/Engine/include -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/include -ID:/GraphicsProjects/NamtarEngine/Engine/. -ID:/GraphicsProjects/NamtarEngine/Engine/Source/. -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
+  OBJECT_DIR = Engine\CMakeFiles\NamtarEngine.dir
+  OBJECT_FILE_DIR = Engine\CMakeFiles\NamtarEngine.dir\Source
+
+build Engine/CMakeFiles/NamtarEngine.dir/Source/GameObject.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Engine/Source/GameObject.cpp | Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_NamtarEngine
+  DEFINES = -DNE_DEBUG -DNE_PCH -DSFML_STATIC
+  DEP_FILE = Engine\CMakeFiles\NamtarEngine.dir\Source\GameObject.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=c++20 -Winvalid-pch -include D:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx
+  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/Engine/include -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/include -ID:/GraphicsProjects/NamtarEngine/Engine/. -ID:/GraphicsProjects/NamtarEngine/Engine/Source/. -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
+  OBJECT_DIR = Engine\CMakeFiles\NamtarEngine.dir
+  OBJECT_FILE_DIR = Engine\CMakeFiles\NamtarEngine.dir\Source
+
+build Engine/CMakeFiles/NamtarEngine.dir/Source/IDManager.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Engine/Source/IDManager.cpp | Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_NamtarEngine
+  DEFINES = -DNE_DEBUG -DNE_PCH -DSFML_STATIC
+  DEP_FILE = Engine\CMakeFiles\NamtarEngine.dir\Source\IDManager.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=c++20 -Winvalid-pch -include D:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx
+  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/Engine/include -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/include -ID:/GraphicsProjects/NamtarEngine/Engine/. -ID:/GraphicsProjects/NamtarEngine/Engine/Source/. -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
+  OBJECT_DIR = Engine\CMakeFiles\NamtarEngine.dir
+  OBJECT_FILE_DIR = Engine\CMakeFiles\NamtarEngine.dir\Source
+
+build Engine/CMakeFiles/NamtarEngine.dir/Source/Logger.cpp.obj: CXX_COMPILER__NamtarEngine_Debug D$:/GraphicsProjects/NamtarEngine/Engine/Source/Logger.cpp | Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx.gch || cmake_object_order_depends_target_NamtarEngine
+  DEFINES = -DNE_DEBUG -DNE_PCH -DSFML_STATIC
+  DEP_FILE = Engine\CMakeFiles\NamtarEngine.dir\Source\Logger.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=c++20 -Winvalid-pch -include D:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/CMakeFiles/NamtarEngine.dir/cmake_pch.hxx
+  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/Engine/include -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/include -ID:/GraphicsProjects/NamtarEngine/Engine/. -ID:/GraphicsProjects/NamtarEngine/Engine/Source/. -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
+  OBJECT_DIR = Engine\CMakeFiles\NamtarEngine.dir
+  OBJECT_FILE_DIR = Engine\CMakeFiles\NamtarEngine.dir\Source
+
+
+# =============================================================================
+# Link build statements for STATIC_LIBRARY target NamtarEngine
+
+
+#############################################
+# Link the static library Engine\libNamtarEngine.a
+
+build Engine/libNamtarEngine.a: CXX_STATIC_LIBRARY_LINKER__NamtarEngine_Debug Engine/CMakeFiles/NamtarEngine.dir/Source/Engine.cpp.obj Engine/CMakeFiles/NamtarEngine.dir/Source/GameObject.cpp.obj Engine/CMakeFiles/NamtarEngine.dir/Source/IDManager.cpp.obj Engine/CMakeFiles/NamtarEngine.dir/Source/Logger.cpp.obj || _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
+  LANGUAGE_COMPILE_FLAGS = -g
+  OBJECT_DIR = Engine\CMakeFiles\NamtarEngine.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Engine\libNamtarEngine.a
+  TARGET_PDB = NamtarEngine.a.dbg
+
+
+#############################################
+# Utility command for package
+
+build Engine/CMakeFiles/package.util: CUSTOM_COMMAND Engine/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build Engine/package: phony Engine/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build Engine/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake D:/GraphicsProjects/NamtarEngine/cmake-build-debug/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build Engine/package_source: phony Engine/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build Engine/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Engine && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Engine/edit_cache: phony Engine/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Engine/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Engine && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\GraphicsProjects\NamtarEngine -BD:\GraphicsProjects\NamtarEngine\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Engine/rebuild_cache: phony Engine/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build Engine/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build Engine/CMakeFiles/install.util: CUSTOM_COMMAND Engine/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Engine && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build Engine/install: phony Engine/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build Engine/CMakeFiles/install/local.util: CUSTOM_COMMAND Engine/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Engine && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build Engine/install/local: phony Engine/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build Engine/CMakeFiles/install/strip.util: CUSTOM_COMMAND Engine/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Engine && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build Engine/install/strip: phony Engine/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/GraphicsProjects/NamtarEngine/Engine/CMakeLists.txt
 # =============================================================================
 
 
@@ -2003,9 +2023,234 @@ build _deps/sfml-build/src/SFML/Audio/CMakeFiles/install/strip.util: CUSTOM_COMM
 build _deps/sfml-build/src/SFML/Audio/install/strip: phony _deps/sfml-build/src/SFML/Audio/CMakeFiles/install/strip.util
 
 # =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/GraphicsProjects/NamtarEngine/Engine/CMakeLists.txt
+# =============================================================================
+
+
+#############################################
+# Utility command for package
+
+build Engine/Source/CMakeFiles/package.util: CUSTOM_COMMAND Engine/Source/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build Engine/Source/package: phony Engine/Source/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build Engine/Source/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake D:/GraphicsProjects/NamtarEngine/cmake-build-debug/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build Engine/Source/package_source: phony Engine/Source/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build Engine/Source/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Engine\Source && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Engine/Source/edit_cache: phony Engine/Source/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Engine/Source/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Engine\Source && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\GraphicsProjects\NamtarEngine -BD:\GraphicsProjects\NamtarEngine\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Engine/Source/rebuild_cache: phony Engine/Source/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build Engine/Source/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build Engine/Source/CMakeFiles/install.util: CUSTOM_COMMAND Engine/Source/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Engine\Source && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build Engine/Source/install: phony Engine/Source/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build Engine/Source/CMakeFiles/install/local.util: CUSTOM_COMMAND Engine/Source/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Engine\Source && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build Engine/Source/install/local: phony Engine/Source/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build Engine/Source/CMakeFiles/install/strip.util: CUSTOM_COMMAND Engine/Source/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Engine\Source && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build Engine/Source/install/strip: phony Engine/Source/CMakeFiles/install/strip.util
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# D:/GraphicsProjects/NamtarEngine/CMakeLists.txt
+# =============================================================================
+
+# =============================================================================
+# Object build statements for EXECUTABLE target ne-editor
+
+
+#############################################
+# Order-only phony target for ne-editor
+
+build cmake_object_order_depends_target_ne-editor: phony || cmake_object_order_depends_target_NamtarEngine cmake_object_order_depends_target_sfml-graphics cmake_object_order_depends_target_sfml-system cmake_object_order_depends_target_sfml-window
+
+build Editor/CMakeFiles/ne-editor.dir/main.cpp.obj: CXX_COMPILER__ne-editor_Debug D$:/GraphicsProjects/NamtarEngine/Editor/main.cpp || cmake_object_order_depends_target_ne-editor
+  DEFINES = -DNE_DEBUG -DNE_PCH -DSFML_STATIC
+  DEP_FILE = Editor\CMakeFiles\ne-editor.dir\main.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always -std=c++20
+  INCLUDES = -ID:/GraphicsProjects/NamtarEngine/Engine/include -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/include -ID:/GraphicsProjects/NamtarEngine/cmake-build-debug/_deps/sfml-src/include
+  OBJECT_DIR = Editor\CMakeFiles\ne-editor.dir
+  OBJECT_FILE_DIR = Editor\CMakeFiles\ne-editor.dir
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target ne-editor
+
+
+#############################################
+# Link the executable Editor\ne-editor.exe
+
+build Editor/ne-editor.exe: CXX_EXECUTABLE_LINKER__ne-editor_Debug Editor/CMakeFiles/ne-editor.dir/main.cpp.obj | Engine/libNamtarEngine.a _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a || Engine/libNamtarEngine.a _deps/sfml-build/lib/libsfml-graphics-s-d.a _deps/sfml-build/lib/libsfml-system-s-d.a _deps/sfml-build/lib/libsfml-window-s-d.a
+  FLAGS = -g
+  LINK_LIBRARIES = Engine/libNamtarEngine.a  _deps/sfml-build/lib/libsfml-graphics-s-d.a  _deps/sfml-build/lib/libsfml-window-s-d.a  _deps/sfml-build/lib/libsfml-system-s-d.a  -lopengl32  -lwinmm  -lgdi32  _deps/sfml-src/extlibs/libs-mingw/x64/libfreetype.a  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
+  OBJECT_DIR = Editor\CMakeFiles\ne-editor.dir
+  POST_BUILD = cd .
+  PRE_LINK = cd .
+  TARGET_FILE = Editor\ne-editor.exe
+  TARGET_IMPLIB = Editor\libne-editor.dll.a
+  TARGET_PDB = ne-editor.exe.dbg
+
+
+#############################################
+# Utility command for package
+
+build Editor/CMakeFiles/package.util: CUSTOM_COMMAND Editor/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackConfig.cmake"
+  DESC = Run CPack packaging tool...
+  pool = console
+  restat = 1
+
+build Editor/package: phony Editor/CMakeFiles/package.util
+
+
+#############################################
+# Utility command for package_source
+
+build Editor/CMakeFiles/package_source.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cpack.exe" --config ./CPackSourceConfig.cmake D:/GraphicsProjects/NamtarEngine/cmake-build-debug/CPackSourceConfig.cmake"
+  DESC = Run CPack packaging tool for source...
+  pool = console
+  restat = 1
+
+build Editor/package_source: phony Editor/CMakeFiles/package_source.util
+
+
+#############################################
+# Utility command for edit_cache
+
+build Editor/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Editor && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -E echo "No interactive CMake dialog available.""
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build Editor/edit_cache: phony Editor/CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build Editor/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Editor && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" --regenerate-during-build -SD:\GraphicsProjects\NamtarEngine -BD:\GraphicsProjects\NamtarEngine\cmake-build-debug"
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build Editor/rebuild_cache: phony Editor/CMakeFiles/rebuild_cache.util
+
+
+#############################################
+# Utility command for list_install_components
+
+build Editor/list_install_components: phony
+
+
+#############################################
+# Utility command for install
+
+build Editor/CMakeFiles/install.util: CUSTOM_COMMAND Editor/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Editor && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -P cmake_install.cmake"
+  DESC = Install the project...
+  pool = console
+  restat = 1
+
+build Editor/install: phony Editor/CMakeFiles/install.util
+
+
+#############################################
+# Utility command for install/local
+
+build Editor/CMakeFiles/install/local.util: CUSTOM_COMMAND Editor/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Editor && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake"
+  DESC = Installing only the local directory...
+  pool = console
+  restat = 1
+
+build Editor/install/local: phony Editor/CMakeFiles/install/local.util
+
+
+#############################################
+# Utility command for install/strip
+
+build Editor/CMakeFiles/install/strip.util: CUSTOM_COMMAND Editor/all
+  COMMAND = cmd.exe /C "cd /D D:\GraphicsProjects\NamtarEngine\cmake-build-debug\Editor && "C:\Program Files\JetBrains\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake"
+  DESC = Installing the project stripped...
+  pool = console
+  restat = 1
+
+build Editor/install/strip: phony Editor/CMakeFiles/install/strip.util
+
+# =============================================================================
 # Target aliases.
 
-build NamtarEngine: phony NamtarEngine.exe
+build NamtarEngine: phony Engine/libNamtarEngine.a
+
+build libNamtarEngine.a: phony Engine/libNamtarEngine.a
 
 build libsfml-audio-s-d.a: phony _deps/sfml-build/lib/libsfml-audio-s-d.a
 
@@ -2018,6 +2263,10 @@ build libsfml-network-s-d.a: phony _deps/sfml-build/lib/libsfml-network-s-d.a
 build libsfml-system-s-d.a: phony _deps/sfml-build/lib/libsfml-system-s-d.a
 
 build libsfml-window-s-d.a: phony _deps/sfml-build/lib/libsfml-window-s-d.a
+
+build ne-editor: phony Editor/ne-editor.exe
+
+build ne-editor.exe: phony Editor/ne-editor.exe
 
 build sfml-audio: phony _deps/sfml-build/lib/libsfml-audio-s-d.a
 
@@ -2039,7 +2288,28 @@ build sfml-window: phony _deps/sfml-build/lib/libsfml-window-s-d.a
 #############################################
 # Folder: D:/GraphicsProjects/NamtarEngine/cmake-build-debug
 
-build all: phony NamtarEngine.exe _deps/sfml-build/all
+build all: phony Engine/all Editor/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/GraphicsProjects/NamtarEngine/cmake-build-debug/Editor
+
+build Editor/all: phony Editor/ne-editor.exe
+
+# =============================================================================
+
+#############################################
+# Folder: D:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine
+
+build Engine/all: phony Engine/libNamtarEngine.a _deps/sfml-build/all Engine/Source/all
+
+# =============================================================================
+
+#############################################
+# Folder: D:/GraphicsProjects/NamtarEngine/cmake-build-debug/Engine/Source
+
+build Engine/Source/all: phony
 
 # =============================================================================
 
@@ -2104,14 +2374,14 @@ build _deps/sfml-build/src/SFML/Window/all: phony _deps/sfml-build/lib/libsfml-w
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CPack.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CPackComponent.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckTypeSize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindGit.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenAL.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/GraphicsProjects/NamtarEngine/CMakeLists.txt _deps/sfml-src/CMakeLists.txt _deps/sfml-src/cmake/CompilerWarnings.cmake _deps/sfml-src/cmake/Config.cmake _deps/sfml-src/cmake/Macros.cmake _deps/sfml-src/cmake/Modules/FindFLAC.cmake _deps/sfml-src/cmake/Modules/FindFreetype.cmake _deps/sfml-src/cmake/Modules/FindVORBIS.cmake _deps/sfml-src/cmake/SFMLConfig.cmake.in _deps/sfml-src/cmake/SFMLConfigDependencies.cmake.in _deps/sfml-src/src/SFML/Audio/CMakeLists.txt _deps/sfml-src/src/SFML/CMakeLists.txt _deps/sfml-src/src/SFML/Graphics/CMakeLists.txt _deps/sfml-src/src/SFML/Main/CMakeLists.txt _deps/sfml-src/src/SFML/Network/CMakeLists.txt _deps/sfml-src/src/SFML/System/CMakeLists.txt _deps/sfml-src/src/SFML/Window/CMakeLists.txt
+build build.ninja: RERUN_CMAKE | C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CPack.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CPackComponent.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckTypeSize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindGit.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenAL.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/GraphicsProjects/NamtarEngine/CMakeLists.txt D$:/GraphicsProjects/NamtarEngine/Editor/CMakeLists.txt D$:/GraphicsProjects/NamtarEngine/Engine/CMakeLists.txt D$:/GraphicsProjects/NamtarEngine/Engine/Source/CMakeLists.txt D$:/GraphicsProjects/NamtarEngine/Engine/header_list.cmake _deps/sfml-src/CMakeLists.txt _deps/sfml-src/cmake/CompilerWarnings.cmake _deps/sfml-src/cmake/Config.cmake _deps/sfml-src/cmake/Macros.cmake _deps/sfml-src/cmake/Modules/FindFLAC.cmake _deps/sfml-src/cmake/Modules/FindFreetype.cmake _deps/sfml-src/cmake/Modules/FindVORBIS.cmake _deps/sfml-src/cmake/SFMLConfig.cmake.in _deps/sfml-src/cmake/SFMLConfigDependencies.cmake.in _deps/sfml-src/src/SFML/Audio/CMakeLists.txt _deps/sfml-src/src/SFML/CMakeLists.txt _deps/sfml-src/src/SFML/Graphics/CMakeLists.txt _deps/sfml-src/src/SFML/Main/CMakeLists.txt _deps/sfml-src/src/SFML/Network/CMakeLists.txt _deps/sfml-src/src/SFML/System/CMakeLists.txt _deps/sfml-src/src/SFML/Window/CMakeLists.txt
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CPack.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CPackComponent.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckTypeSize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindGit.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenAL.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/GraphicsProjects/NamtarEngine/CMakeLists.txt _deps/sfml-src/CMakeLists.txt _deps/sfml-src/cmake/CompilerWarnings.cmake _deps/sfml-src/cmake/Config.cmake _deps/sfml-src/cmake/Macros.cmake _deps/sfml-src/cmake/Modules/FindFLAC.cmake _deps/sfml-src/cmake/Modules/FindFreetype.cmake _deps/sfml-src/cmake/Modules/FindVORBIS.cmake _deps/sfml-src/cmake/SFMLConfig.cmake.in _deps/sfml-src/cmake/SFMLConfigDependencies.cmake.in _deps/sfml-src/src/SFML/Audio/CMakeLists.txt _deps/sfml-src/src/SFML/CMakeLists.txt _deps/sfml-src/src/SFML/Graphics/CMakeLists.txt _deps/sfml-src/src/SFML/Main/CMakeLists.txt _deps/sfml-src/src/SFML/Network/CMakeLists.txt _deps/sfml-src/src/SFML/System/CMakeLists.txt _deps/sfml-src/src/SFML/Window/CMakeLists.txt: phony
+build C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/BasicConfigVersion-SameMajorVersion.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCommonLanguageInclude.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeGenericSystem.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeInitializeConfigs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeLanguageInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakePackageConfigHelpers.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeParseArguments.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeRCInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInformation.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeSystemSpecificInitialize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CPack.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CPackComponent.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckIncludeFileCXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/CheckTypeSize.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/CMakeCommonCompilerMacros.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Compiler/GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FetchContent/CMakeLists.cmake.in C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindGit.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenAL.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindOpenGL.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageHandleStandardArgs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/FindPackageMessage.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/GNUInstallDirs.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-C.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX-ABI.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU-CXX.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-GNU.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows-windres.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/Windows.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/Platform/WindowsPaths.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Modules/WriteBasicConfigVersionFile.cmake C$:/Program$ Files/JetBrains/CLion$ 2023.1.4/bin/cmake/win/x64/share/cmake-3.25/Templates/CPackConfig.cmake.in CMakeCache.txt CMakeFiles/3.25.2/CMakeCCompiler.cmake CMakeFiles/3.25.2/CMakeCXXCompiler.cmake CMakeFiles/3.25.2/CMakeRCCompiler.cmake CMakeFiles/3.25.2/CMakeSystem.cmake D$:/GraphicsProjects/NamtarEngine/CMakeLists.txt D$:/GraphicsProjects/NamtarEngine/Editor/CMakeLists.txt D$:/GraphicsProjects/NamtarEngine/Engine/CMakeLists.txt D$:/GraphicsProjects/NamtarEngine/Engine/Source/CMakeLists.txt D$:/GraphicsProjects/NamtarEngine/Engine/header_list.cmake _deps/sfml-src/CMakeLists.txt _deps/sfml-src/cmake/CompilerWarnings.cmake _deps/sfml-src/cmake/Config.cmake _deps/sfml-src/cmake/Macros.cmake _deps/sfml-src/cmake/Modules/FindFLAC.cmake _deps/sfml-src/cmake/Modules/FindFreetype.cmake _deps/sfml-src/cmake/Modules/FindVORBIS.cmake _deps/sfml-src/cmake/SFMLConfig.cmake.in _deps/sfml-src/cmake/SFMLConfigDependencies.cmake.in _deps/sfml-src/src/SFML/Audio/CMakeLists.txt _deps/sfml-src/src/SFML/CMakeLists.txt _deps/sfml-src/src/SFML/Graphics/CMakeLists.txt _deps/sfml-src/src/SFML/Main/CMakeLists.txt _deps/sfml-src/src/SFML/Network/CMakeLists.txt _deps/sfml-src/src/SFML/System/CMakeLists.txt _deps/sfml-src/src/SFML/Window/CMakeLists.txt: phony
 
 
 #############################################

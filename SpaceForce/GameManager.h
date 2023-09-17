@@ -5,7 +5,7 @@
 #ifndef NAMTARENGINE_GAMEMANAGER_H
 #define NAMTARENGINE_GAMEMANAGER_H
 
-#include "../Core/Header/MonoInstance.h"
+#include
 
 class GameManager: MonoInstance {
 public:
