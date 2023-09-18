@@ -20,9 +20,11 @@ This current implementation of data storage and reading isn't the greatest. Firs
 - Other more efficient storage systems exist (I have yet to explore those options since that was not a priority at the time).
 
 ## Storage method
-In an attempt to utilize cache locality, the componentPool and gameObjectPool are **vectors** of pointers their respective stored classes. 
+In an attempt to utilize cache locality, the componentPool and gameObjectPool are **vectors** of pointers their respective stored classes. Note that componentPool is a vector containing a vector of pointers to components.
 
 The gameObjectPool stores created gameObjects, where the ID of each gameObject corresponds to their location in the gameObjectPool vector. 
+
+The componentPool stores created components of gameObjects, where the indices are the IDs of a given gameObject, and the inner indices are the respective typeIDs of child classes of Component.
 
 ## Logic execution
 At the start of each initialization(run) process of the Engine, the "Start" function on all active Components will be called.
